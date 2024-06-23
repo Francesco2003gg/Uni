@@ -1,11 +1,10 @@
 import streamlit as st
 import pandas as pd
-import mysql.connector
 import os #Libreria per ottenere la directory di lavoro
 import pyodbc
 import csv
 import subprocess
-
+import mysql.connector
 
 
 def connessione():
